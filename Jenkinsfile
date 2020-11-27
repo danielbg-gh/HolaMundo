@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('Instalacion') {
+      steps {
+        sh 'gcc -v'
+      }
+    }
+
   }
 }
