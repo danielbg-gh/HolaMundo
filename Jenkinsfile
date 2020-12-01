@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Paso-1') {
       steps {
-        sh 'gcc hola.c -o hola.bin'
+        sh 'echo "Paso-1"'
       }
     }
 
