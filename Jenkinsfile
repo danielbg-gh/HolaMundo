@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Paso-1') {
+    stage('Inicio-Env') {
       steps {
         sh 'env'
       }
